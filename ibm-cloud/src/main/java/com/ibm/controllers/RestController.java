@@ -9,7 +9,7 @@ public class RestController {
 	
 	@GetMapping
 	public String name() {
-		return "Hello Deployed on Ibm Cloud";
+		return "Hello Deployed on Ibm Cloud --";
 	}
 
 }
