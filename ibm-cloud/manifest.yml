@@ -1,9 +1,8 @@
 ---
 applications:
-- name: ibm-cloud
+- name: ibm-cloud-0.0.1-SNAPSHOT
   memory: 512M
   no-route: true
   instances: 1
-  path: ibm-cloud/target/ibm-cloud-0.0.1-SNAPSHOT.jar
-  env:
-    SPRING_PROFILES_ACTIVE : cloud
+  path: target/ibm-cloud-0.0.1-SNAPSHOT.jar
+
