@@ -1,7 +1,7 @@
 ---
 applications:
 - name: ibm-cloud-0.0.1-SNAPSHOT
-  memory: 512M
+  memory: 1024M
   no-route: true
   instances: 1
   path: target/ibm-cloud-0.0.1-SNAPSHOT.jar
