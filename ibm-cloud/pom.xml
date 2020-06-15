@@ -44,7 +44,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			
 				 <configuration>
-        <finalName>ibm-cloud-demo-4</finalName>                   
+        <finalName>ibm-cloud-demo-5</finalName>                   
     </configuration>
 				
 			</plugin>
