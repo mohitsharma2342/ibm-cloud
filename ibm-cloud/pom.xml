@@ -23,7 +23,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+ <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-spring-service-connector</artifactId>
+        <version>1.2.3.RELEASE</version>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-cloudfoundry-connector</artifactId>
+        <version>1.2.3.RELEASE</version>
+    </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -44,7 +53,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			
 				 <configuration>
-        <finalName>ibm-cloud-demo-6</finalName>                   
+        <finalName>ibm-cloud-demo-7</finalName>                   
     </configuration>
 				
 			</plugin>
