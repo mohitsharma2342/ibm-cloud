@@ -1,9 +1,8 @@
 ---
 applications:
-- name: ibm-cloud-demo-5
+- name: ibm-cloud-demo-6
   memory: 256M
   no-route: true
   instances: 1
-  path: target/ibm-cloud-demo-5.jar
   buildpack : https://github.com/cloudfoundry/java-buildpack.git
 
