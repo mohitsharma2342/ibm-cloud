@@ -53,7 +53,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			
 				 <configuration>
-        <finalName>ibm-cloud-demo-7</finalName>                   
+        <finalName>ibm-cloud-demo-8</finalName>                   
     </configuration>
 				
 			</plugin>
