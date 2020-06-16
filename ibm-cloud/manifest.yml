@@ -1,9 +1,11 @@
 ---
 applications:
-- name: ibm-cloud-demo-7
+- name: ibm-cloud-demo-8
   memory: 256M
   no-route: true
   instances: 1
-  path: target/ibm-cloud-demo-7.jar
+  path: target/ibm-cloud-demo-8.jar
   buildpack : https://github.com/cloudfoundry/java-buildpack.git
-
+  env:
+    SPRING_PROFILES_ACTIVE : cloud 
+    
